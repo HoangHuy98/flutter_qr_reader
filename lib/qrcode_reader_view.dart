@@ -179,7 +179,7 @@ class QrcodeReaderViewState extends State<QrcodeReaderView>
                 alignment: Alignment.center,
                 child: DefaultTextStyle(
                   style: TextStyle(color: Colors.white),
-                  child: widget.helpWidget ?? Text("请将二维码置于方框中"),
+                  child: widget.helpWidget ?? Text(""),
                 ),
               ),
             ),
